@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "name": "cuad_cap_on_liability",
+      "neutral_yes": "Cap"
+    },
+    {
+      "name": "hearsay",
+      "neutral_yes": "Hearsay"
+    },
+    {
+      "name": "cuad_no-solicit_of_customers",
+     "neutral_yes": "Restricted"
+    },
+    {
+      "name": "contract_nli_confidentiality_of_agreement",
+      "neutral_yes": "Disclose"
+    },
+    {
+      "name": "contract_nli_explicit_identification",
+      "neutral_yes": "Expressly"
+    },
+    {
+      "name": "cuad_anti-assignment",
+      "neutral_yes": "Consent or Notice"
+    },
+    {
+      "name": "cuad_non-compete",
+      "neutral_yes": "Non-Compete"
+    },
+    {
+      "name": "definition_classification",
+      "neutral_yes": "Definition"
+    },
+    {
+      "name": "agb-de",
+      "neutral_yes": "ungültig"
+    },
+    {
+      "name": "clauses-pl",
+      "neutral_yes": "Abuzywna"
+    }
+  ]
+}

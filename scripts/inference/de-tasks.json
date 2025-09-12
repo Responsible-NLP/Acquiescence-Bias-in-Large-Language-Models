@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "name": "agb-de",
+      "system_prompt": "Stell dir vor, du bist ein Anwalt.",
+      "neutral_prompt": "Wie würdest du diese Klausel bewerten?",
+      "neutral_anwers": "Antworte nur \"ungültig\" oder \"gültig\".",
+      "yesno_prompt": "Ist die Klausel ungültig?",
+      "agree_prompt": "Stimmst du zu, dass die Klausel ungültig ist?",
+      "negated_agree_prompt": "Stimmst du nicht zu, dass die Klausel ungültig ist?",
+      "disagree_prompt": "Widersprichst du, dass die folgende Klausel ungültig ist?"
+    }
+  ]
+}

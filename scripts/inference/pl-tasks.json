@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "name": "clauses-pl",
+      "neutral_prompt": "Jak oceniasz tę klauzulę?",
+      "neutral_anwers": "Wystarczy odpowiedzieć \"Abuzywna\" lub \"Bezpieczne\".",
+      "yesno_prompt": "Czy klauzula to jest nadużyciem?",
+      "agree_prompt": "Czy zgadzasz się, że ta klauzula jest nadużyciem?",
+      "negated_agree_prompt": "Czy nie zgadzasz się, że ta klauzula jest nadużyciem?",
+      "disagree_prompt": "Czy zaprzecza Pan, że klauzula ta jest nadużyciem?"
+    }
+  ]
+}

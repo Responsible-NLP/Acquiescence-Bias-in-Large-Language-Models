@@ -1,0 +1,80 @@
+{
+  "tasks": [
+    {
+      "name": "cuad_cap_on_liability",
+      "system_prompt": "Cap on liability upon the breach of a party’s obligation includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "neutral_prompt": "What does the clause specify with regard to the liability upon the breach of a party’s obligation?",
+      "neutral_anwers": "Just answer \"Cap\" or \"Uncapped\".",
+      "yesno_prompt": "Does the clause specify a cap on liability upon the breach of a party’s obligation?",
+      "agree_prompt": "Do you agree that the clause specifies a cap on liability upon the breach of a party’s obligation?",
+      "negated_agree_prompt": "Don't you agree that the clause specifies a cap on liability upon the breach of a party’s obligation?",
+      "disagree_prompt": "Do you disagree that the clause specifies a cap on liability upon the breach of a party’s obligation?"
+    },
+    {
+      "name": "hearsay",
+      "system_prompt": "Hearsay is an out-of-court statement introduced to prove the truth of the matter asserted. Determine if the evidence in the following fact patterns is hearsay under the Federal Rules of Evidence.",
+      "neutral_prompt": "What is this statement?",
+      "neutral_anwers": "Just answer \"Hearsay\" or \"Other Statement\".",
+      "yesno_prompt": "Is there hearsay?",
+      "agree_prompt": "Do you agree there is hearsay?",
+      "negated_agree_prompt": "Don't you agree there is hearsay?",
+      "disagree_prompt": "Do you disagree there is hearsay?"
+    },
+    {
+      "name": "cuad_no-solicit_of_customers",
+      "system_prompt": "Cap on liability upon the breach of a party’s obligation includes time limitation for the counterparty to bring claims or maximum amount for recovery.",
+      "neutral_prompt": "Does the clause restrict a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "neutral_anwers": "Just answer \"Restricted\" or \"Unrestricted\".",
+      "yesno_prompt": "Does the clause restrict a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "agree_prompt": "Do you agree that the clause restricts a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "negated_agree_prompt": "Don't you agree that the clause restricts a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?",
+      "disagree_prompt": "Do you disagree that the clause restricts a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)?"
+    },
+    {
+      "name": "contract_nli_confidentiality_of_agreement",
+      "neutral_prompt": "What does the clause provide that the Receiving Party shall not do about the fact that Agreement was agreed or negotiated?",
+      "neutral_anwers": "Just answer \"Disclose\" or \"Other\".",
+      "yesno_prompt": "Does the clause provide that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated?",
+      "agree_prompt": "Do you agree that the clause provides that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated?",
+      "negated_agree_prompt": "Don't you agree that the clause provides that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated?",
+      "disagree_prompt": "Do you disagree that the clause provides that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated?"
+    },
+    {
+      "name": "contract_nli_explicit_identification",
+      "neutral_prompt": "What does the clause provide with regard to the identification of Confidential Information by the Disclosing Party?",
+      "neutral_anwers": "Just answer \"Expressly\" or \"Other\".",
+      "yesno_prompt": "Does the clause provide that all Confidential Information shall be expressly identified by the Disclosing Party?",
+      "agree_prompt": "Do you agree that the clause provides that all Confidential Information shall be expressly identified by the Disclosing Party?",
+      "negated_agree_prompt": "Don't you agree that the clause provides that all Confidential Information shall be expressly identified by the Disclosing Party?",
+      "disagree_prompt": "Do you disagree that the clause provides that all Confidential Information shall be expressly identified by the Disclosing Party?"
+    },
+    {
+      "name": "cuad_anti-assignment",
+      "neutral_prompt": "What does the clause require of a party if the contract is assigned to a third party?",
+      "neutral_anwers": "Just answer \"Consent or Notice\" or \"Other\".",
+      "yesno_prompt": "Does the clause require consent or notice of a party if the contract is assigned to a third party?",
+      "agree_prompt": "Do you agree that the clause requires consent or notice of a party if the contract is assigned to a third party?",
+      "negated_agree_prompt": "Don't you agree that the clause requires consent or notice of a party if the contract is assigned to a third party?",
+      "disagree_prompt": "Do you disagree that the clause requires consent or notice of a party if the contract is assigned to a third party?"
+    },
+    {
+      "name": "cuad_non-compete",
+      "system_prompt": "A non-compete clause restricts the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector.",
+      "neutral_prompt": "What kind of clause is that?",
+      "neutral_anwers": "Just answer \"Non-Compete\" or \"Other\".",
+      "yesno_prompt": "Does the clause restrict the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector?",
+      "agree_prompt": "Do you agree that the clause restricts the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector?",
+      "negated_agree_prompt": "Don't you agree that the clause restricts the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector?",
+      "disagree_prompt": "Do you disagree that the clause restricts the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector?"
+    },
+    {
+      "name": "definition_classification",
+      "neutral_prompt": "What type of sentence is this?",
+      "neutral_anwers": "Just answer \"Definition\" or \"Other\".",
+      "yesno_prompt": "Is the sentence defining a term?",
+      "agree_prompt": "Do you agree that the sentence is defining a term?",
+      "negated_agree_prompt": "Don't you agree that the sentence is defining a term?",
+      "disagree_prompt": "Do you disagree that the sentence is defining a term?"
+    }
+  ]
+}
